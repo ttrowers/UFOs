@@ -1,2 +1,2 @@
 # UFOs
-[link ][ https://ttrowers.github.io/UFOs/]
+[link to my UFO ][ https://ttrowers.github.io/UFOs/]
