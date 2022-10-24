@@ -17,7 +17,7 @@
     <div class="wrapper">
 
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">UFO Sightings</a>
+            <a class="navbar-brand" href="https://github.com/ttrowers/UFOs">Link to repository</a>
         </nav>
         <div class="jumbotron">
             <h1 class="display-4">The Truth is Out There</h1>
@@ -65,24 +65,49 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3">
-                    <form> class="bg-dark">
+                    <form class="bg-dark">
                         <p>Filter Search</p>
                         <ul class="list-group bg-dark">
 
                             <li class="list-group-item bg-dark">
-                                <label for="date">Enter Date</label>
+                                <label for="date">Enter a Date</label>
                                 <input type="text" placeholder="1/10/2010" id="datetime" />
                             </li>
+                            <!---city filter-->
                             <li class="list-group-item bg-dark">
-                                <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
+                                <label for="city">Enter a City</label>
+                                <input type="text" placeholder="el cajon" id="City" />
                             </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="State">Enter a State</label>
+                                <input type="text" placeholder="ca" id="State" />
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="Country">Enter a Country </label>
+                                <input type="text" placeholder="us" id="Country" />
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="Shape">Enter a Shape</label>
+                                <input type="text" placeholder="triangle" id="Shape" />
+                            </li>
+
+                            <!-- <li class="list-group-item bg-dark">
+                                <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
+                            </li> -->
+                        </ul>
                     </form>
                 </div>
                 <div class="col-md-9">
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th></th>
+                                <th>Date</th>
+                                <th>City</th>
+                                <th>State</th>
+                                <th>Country</th>
+                                <th>Shape</th>
+                                <th>Duration</th>
+                                <th>Comments</th>
                             </tr>
                         </thead>
                         <tbody></tbody>
@@ -99,13 +124,7 @@
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th>Date</th>
-                        <th>City</th>
-                        <th>State</th>
-                        <th>Country</th>
-                        <th>Shape</th>
-                        <th>Duration</th>
-                        <th>Comments</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody></tbody>
